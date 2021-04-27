@@ -1,3 +1,4 @@
+
 # Signal to Noise Ratio (SNR)
 
 This repository is Copyright ©Patrik Lechner 2021 under Creative Commons, Attribution-ShareAlike 4.0 International. [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -10,3 +11,5 @@ This notebook documents how to calculate the Signal to Noise Ratio (SNR) for aud
 - Method 3 uses the FFT to analyse for a fundamental frequency. It assumes that the input is a sinusoidal signal, the system adds noise and can contain weak non-linearities.
 - Methos 4 is here mostly for reference and is mostly suited for DC signals (not audio signals)
 
+## Cite
+[![DOI](https://zenodo.org/badge/362257136.svg)](https://zenodo.org/badge/latestdoi/362257136)
