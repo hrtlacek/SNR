@@ -2,7 +2,7 @@
 
 This repository is Copyright ©Patrik Lechner 2021 under Creative Commons, Attribution-ShareAlike 4.0 International. [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-It contains only [one notebook](SNR.ipynb).
+It contains only [one notebook](SNR.ipynb) which can be tried [out interactively in callab](https://colab.research.google.com/github/hrtlacek/SNR/blob/master/SNR.ipynb).
 
 This notebook documents how to calculate the Signal to Noise Ratio (SNR) for audio applications in python. This measure is used in many engineering disciplines. In audio applications, the desired signals mostly contain AC components that should not be confused with noise, making simple approaches focusing on DC signals not very useful. 4 Methods are shown here:
 - Method 1 assumes we can measure/record a noise only signal, emmitted by the system in question without an input signal.
